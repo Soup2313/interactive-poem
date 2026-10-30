@@ -7,8 +7,8 @@ function randomize() {
     console.log(divs.length, "randomize!")
 
     // affects the whole grid
-    grid[0].style.transform = rotate(${Math.random() * 360}deg);
-
+    grid[0].style.transform = `rotate(${Math.random() * 360}deg)`;
+    
     // just the grid divs
     divs.forEach(function (div) {
         let scale = randomNumber(.5, 1.2);
@@ -23,7 +23,7 @@ function randomize() {
             translateY = randomNumber(0, 80);
         }
 
-        div.style.transform = scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg);
+        div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
 
         });
 }
