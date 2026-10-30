@@ -3,3 +3,21 @@
 div {
 font-family: "Contrail One", sans-serif
 }
+body {
+margin: 1rem;
+background-color: black;
+background-image: url(../img/sun-18.gif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: whitesmoke;
+font-size: 5rem;
+overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem; 
+    margin: 10% 4rem 0 4rem;
+}
