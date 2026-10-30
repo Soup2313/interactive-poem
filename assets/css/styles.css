@@ -14,7 +14,6 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 color: whitesmoke;
-font-family: "Contrail One", sans-serif
 font-size: 5rem;
 overflow: hidden;
 }
@@ -24,4 +23,14 @@ overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem; 
     margin: 10% 4rem 0 4rem;
+}
+
+div{
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220, 200, 180);
 }
