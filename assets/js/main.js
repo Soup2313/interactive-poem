@@ -11,9 +11,9 @@ function randomize() {
     
     // just the grid divs
     divs.forEach(function (div) {
-        let scale = randomNumber(.5, 1.2);
-        let translateX = randomNumber(0, 50);
-        let translateY = randomNumber(0, 20);
+        let scale = randomNumber(.9, 3.2);
+        let translateX = randomNumber(0, 80);
+        let translateY = randomNumber(0, 40);
         let rotate = randomNumber(0, 360);
 
         // 50% of the time ...
